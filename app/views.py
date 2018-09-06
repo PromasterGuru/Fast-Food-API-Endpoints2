@@ -27,3 +27,16 @@ class RouteTestCases(unittest.TestCase):
         resp = self.client().post('/api/v1/orders', data=self.order)
         self.assertEqual(resp.status_code, 201)
         self.assertIn('Tater tots', str(resp.data))
+
+@app.route('/api/v1/orders', methods=['GET'])
+def get_orders():
+    '''Get all the orders.'''
+    return jsonify({"Orders": FOOD_ORDERS}), 200 #OK
+
+@app.route('/api/v1/orders/<int:order_id>', methods=['GET'])
+def get_order(order_id):
+    '''Fetch a specific order'''
+    order = [order for order in FOOD_ORDERS if order['id'] == order_id]
+    if not order:
+        abort(404) #Not Found
+    return jsonify({"Order": order}), 200 #OK
