@@ -40,3 +40,11 @@ def get_order(order_id):
     if not order:
         abort(404) #Not Found
     return jsonify({"Order": order}), 200 #OK
+
+@app.route('/api/v1/orders/<int:order_id>', methods=['GET'])
+def get_order(order_id):
+    '''Fetch a specific order'''
+    order = [order for order in FOOD_ORDERS if order['id'] == order_id]
+    if not order:
+        abort(404) #Not Found
+    return jsonify({"Order": order}), 200 #OK
