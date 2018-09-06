@@ -54,3 +54,12 @@ class RouteTestCases(unittest.TestCase):
         self.assertEqual(resp.status_code, 202)
         results = self.client().get('/api/v1/orders/1')
         self.assertIn('Completed', str(results.data))
+
+    def test_user_can_delete_an_order(self):
+        '''Test API can delete an order (DELETE request)'''
+        resp = self.client().post('/api/v1/orders/', data=self.order)
+        self.assertEqual(resp.status_code, 201)
+        resp = self.client().delete('/api/v1/orders/')
+        self.assertEqual(resp.status_code, 200)
+        result = self.client().get('/api/v1/orders/1')
+        self.assertEqual(result.status_code, 204)
