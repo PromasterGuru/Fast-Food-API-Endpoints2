@@ -1,8 +1,0 @@
-[
-  "test_models.py::TestModelCases::test_class_inits_with_empty_list",
-  "test_views.py::RouteTestCases::test_user_can_delete_an_order",
-  "test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order",
-  "test_views.py::RouteTestCases::test_user_can_get_all_orders",
-  "test_views.py::RouteTestCases::test_user_can_place_an_order",
-  "test_views.py::RouteTestCases::test_user_can_update_order_status"
-]

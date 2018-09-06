@@ -1,4 +1,12 @@
-before_install:
-  - pip install --user codecov
+language: python
+python:
+    - "3.6"
+
+# Command to install dependancies
+install: "make"
+
+# command to run tests
+script:
+    - coverage run -m pytest
 after_success:
-  - codecov --file coverage/lcov.info --disable search
+- coveralls
