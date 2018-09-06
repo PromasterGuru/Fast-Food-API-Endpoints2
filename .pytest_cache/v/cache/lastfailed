@@ -1,0 +1,7 @@
+{
+  "app/test_models.py::TestFoodOrders::()": true,
+  "app/test_models.py::TestFoodOrders::()::test_get_first_order": true,
+  "app/test_models.py::TestFoodOrders::()::test_model": true,
+  "app/test_models.py::TestFoodOrders::()::test_record": true,
+  "app/tests/test_models.py::TestFoodOrders::()::test_get_first_order": true
+}
