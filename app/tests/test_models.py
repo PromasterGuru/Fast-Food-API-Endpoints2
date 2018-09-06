@@ -14,4 +14,4 @@ class TestModelCases(unittest.TestCase):
 
     def test_class_inits_with_empty_list(self):
         '''Returns an empty list'''
-        self.assertFalse(self.food.food.get_food_orders())
+        self.assertFalse(self.food.get_food_orders())
