@@ -59,3 +59,12 @@ def update_order(order_id):
         abort(404) # Not found
     order[0]['status'] = request.json['status']
     return jsonify({"Order": order}), 202 #Accepted
+
+@app.route('/api/v1/orders/<int:order_id>', methods=['DELETE'])
+def delete_order(order_id):
+    '''Delete an order'''
+    order = [order for order in FOOD_ORDERS if order['id'] == order_id]
+    if not order:
+        abort(404) # Not found
+    FOOD_ORDERS.remove(order[0])
+    return jsonify({"Result": True}), 204 #No Conten
