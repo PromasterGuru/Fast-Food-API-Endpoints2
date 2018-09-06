@@ -3,5 +3,21 @@
   "app/test_models.py::TestFoodOrders::()::test_get_first_order": true,
   "app/test_models.py::TestFoodOrders::()::test_model": true,
   "app/test_models.py::TestFoodOrders::()::test_record": true,
-  "app/tests/test_models.py::TestFoodOrders::()::test_get_first_order": true
+  "app/tests/test_models.py::TestFoodOrders::()::test_food_orders": true,
+  "app/tests/test_models.py::TestFoodOrders::()::test_get_first_order": true,
+  "app/tests/test_models.py::TestFoodOrders::()::test_get_food_orders": true,
+  "app/tests/test_models.py::TestFoodOrders::test_food_orders": true,
+  "app/tests/test_models.py::TestModelCases::test_class_inits_with_empty_list": true,
+  "app/tests/test_views.py::RouteTestCases::test_user_can_delete_an_order": true,
+  "app/tests/test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order": true,
+  "app/tests/test_views.py::RouteTestCases::test_user_can_get_all_orders": true,
+  "app/tests/test_views.py::RouteTestCases::test_user_can_place_an_order": true,
+  "app/tests/test_views.py::RouteTestCases::test_user_can_update_order_status": true,
+  "app/tests/test_views.py::TestApiRouteCases::test_user_can_get_all_orders": true,
+  "test_models.py::TestModelCases::test_class_inits_with_empty_list": true,
+  "test_views.py::RouteTestCases::test_user_can_delete_an_order": true,
+  "test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order": true,
+  "test_views.py::RouteTestCases::test_user_can_get_all_orders": true,
+  "test_views.py::RouteTestCases::test_user_can_place_an_order": true,
+  "test_views.py::RouteTestCases::test_user_can_update_order_status": true
 }
