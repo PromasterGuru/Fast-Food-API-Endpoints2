@@ -27,3 +27,11 @@ class RouteTestCases(unittest.TestCase):
         resp = self.client().post('/api/v1/orders', data=self.order)
         self.assertEqual(resp.status_code, 201)
         self.assertIn('Tater tots', str(resp.data))
+    
+    def test_user_can_get_all_orders(self):
+        '''Test API can return all the orders (GET request)'''
+        resp = self.client().post('/api/v1/orders', data=self.order)
+        self.assertEqual(resp.status_code, 201)
+        resp = self.client().get('/api/v1/orders')
+        self.assertEqual(resp.status_code, 200)
+        self.assertIn('Tater tots', str(resp.data))
