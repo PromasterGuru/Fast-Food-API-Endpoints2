@@ -9,7 +9,7 @@ install:
 
 #Run tests
 script:
-  - pytest --cov=tests/
+  - pytest --with-coverage --cover-package=app
 
 after_success:
   - coveralls
