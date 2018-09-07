@@ -8,10 +8,13 @@ from app.models import FoodOrders
 class TestModelCases(unittest.TestCase):
     '''TestFoodOrders class with storage model and methods'''
 
-    def setup(self):
+    def setUp(self):
         '''Set up the model.'''
         self.food = FoodOrders()
 
     def test_class_inits_with_empty_list(self):
         '''Returns an empty list'''
-        self.assertFalse(self.food.food.get_food_orders())
+        self.assertFalse(self.food.get_food_orders())
+
+if __name__ == "__main__":
+    unittest.main()
