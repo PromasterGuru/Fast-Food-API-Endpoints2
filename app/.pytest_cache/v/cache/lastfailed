@@ -1,0 +1,13 @@
+{
+  "test_models.py": true,
+  "test_models.py::TestFoodOrders::()::test_model": true,
+  "test_models.py::TestFoodOrders::()::test_record": true,
+  "tests/test_models.py::TestFoodOrders": true,
+  "tests/test_models.py::TestFoodOrders::()::test_get_food_orders": true,
+  "tests/test_models.py::TestModelCases::test_class_inits_with_empty_list": true,
+  "tests/test_views.py::RouteTestCases::test_user_can_delete_an_order": true,
+  "tests/test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order": true,
+  "tests/test_views.py::RouteTestCases::test_user_can_get_all_orders": true,
+  "tests/test_views.py::RouteTestCases::test_user_can_place_an_order": true,
+  "tests/test_views.py::RouteTestCases::test_user_can_update_order_status": true
+}
