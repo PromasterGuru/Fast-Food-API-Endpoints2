@@ -1,9 +1,17 @@
 language: python
+
 python:
   - "3.6"
-# command to install dependencies
+
+#install dependences
 install:
   - pip install -r requirements.txt
-  - pip install .
-# command to run tests
-script: pytest
+  - pip install coveralls
+
+#Run tests
+script:
+  - coverage run -m pytest app/tests/test_views.py
+  - coverage run -m pytest app/tests/test_models.py
+
+after_success:
+  - coveralls
