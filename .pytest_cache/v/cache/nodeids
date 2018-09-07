@@ -1,5 +1,9 @@
 [
   "app/tests/test_models.py::TestModelCases::test_class_inits_with_empty_list",
+  "app/tests/test_views.py::RouteTestCases::test_malformed_url_for_get_a_specific_order",
+  "app/tests/test_views.py::RouteTestCases::test_malformed_url_for_get_all_orders",
+  "app/tests/test_views.py::RouteTestCases::test_malformed_url_for_place_order",
+  "app/tests/test_views.py::RouteTestCases::test_malformed_url_for_update_an_order",
   "app/tests/test_views.py::RouteTestCases::test_user_can_delete_an_order",
   "app/tests/test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order",
   "app/tests/test_views.py::RouteTestCases::test_user_can_get_all_orders",

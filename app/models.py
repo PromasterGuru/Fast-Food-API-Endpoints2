@@ -1,6 +1,6 @@
 #app/models.py
-'''Food order class with storage model and methods.'''
 
+'''Food order class with storage model and methods.'''
 
 class FoodOrders():
     '''Food order with storage and methods.'''
