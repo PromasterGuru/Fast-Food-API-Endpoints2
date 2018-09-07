@@ -2,7 +2,6 @@
 
 # Fast Food API-Endpoints
 Creates a set of API endpoints already defined below and use data structures to store data in memory.
-
 <h2>Tools</h2>
 1. Server-Side Framework: <a href ="http://flask.pocoo.org/">Flask Python Framework</a><br>
 2. Linting Library: <a href ="https://www.pylint.org/">Pylint, a Python Linting Library</a><br>
@@ -66,4 +65,4 @@ Creates a set of API endpoints already defined below and use data structures to 
 2. export FLASK_ENV=development<br>
 3. flask run
 
-<h2>Test the program on <a href ="https://www.getpostman.com/">postman</a></p>
+<h4>Test the program on <a href ="https://www.getpostman.com/">postman</a></h4>
