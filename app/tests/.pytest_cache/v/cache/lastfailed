@@ -1,0 +1,12 @@
+{
+  "test_models.py::TestModelCases::test_class_inits_with_empty_list": true,
+  "test_views.py::RouteTestCases::test_malformed_url_for_get_a_specific_order": true,
+  "test_views.py::RouteTestCases::test_malformed_url_for_get_all_orders": true,
+  "test_views.py::RouteTestCases::test_malformed_url_for_place_order": true,
+  "test_views.py::RouteTestCases::test_malformed_url_for_update_an_order": true,
+  "test_views.py::RouteTestCases::test_user_can_delete_an_order": true,
+  "test_views.py::RouteTestCases::test_user_can_fetch_a_specific_order": true,
+  "test_views.py::RouteTestCases::test_user_can_get_all_orders": true,
+  "test_views.py::RouteTestCases::test_user_can_place_an_order": true,
+  "test_views.py::RouteTestCases::test_user_can_update_order_status": true
+}
