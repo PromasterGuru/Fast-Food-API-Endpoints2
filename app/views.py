@@ -38,7 +38,6 @@ def create_order():
         "order_item": request.json['order_item'],
         "description": request.json['description'],
         "quantity": request.json['quantity'],
-        "order_date": str(datetime.datetime.now())[:19],
         "status": "Pedding"
     }
     FOOD_ORDERS.append(new_order)
