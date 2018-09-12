@@ -12,7 +12,8 @@ class FoodOrders():
             {
                 'id':1,
                 'order_item':'Tater tots',
-                'description': 'Pieces of deep-fried, grated potatoes served as a side dish',
+                'description': 'Pieces of deep-fried,\
+				 grated potatoes served as a side dish',
                 'quantity': 5,
                 'order_date': '2018-09-05 13:35:42',
                 'status': 'Pedding'
@@ -20,7 +21,8 @@ class FoodOrders():
             {
                 'id':2,
                 'order_item':'Cobb salad',
-                'description': 'African garden salad typically made with boiled, grilled chicken breast',
+                'description': 'African garden salad typically\
+				 made with boiled, grilled chicken breast',
                 'quantity': 7,
                 'order_date': '2018-09-07 14:30:22',
                 'status': 'Declined'
