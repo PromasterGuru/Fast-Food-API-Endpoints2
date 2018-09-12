@@ -12,9 +12,10 @@ class TestModelCases(unittest.TestCase):
         '''Set up the model.'''
         self.food = FoodOrders()
 
-    def test_class_inits_with_empty_list(self):
-        '''Returns an empty list'''
-        self.assertFalse(self.food.get_food_orders())
+    def test_class_inits_with_some_records(self):
+        '''The model intializes with some records'''
+        result = self.food.get_food_orders()
+        self.assertTrue(result)
 
 if __name__ == "__main__":
     unittest.main()
